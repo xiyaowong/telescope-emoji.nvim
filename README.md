@@ -3,6 +3,9 @@
 An extension for [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 that allows you to search emojis😃
 
+<!-- markdownlint-disable-next-line -->
+<img width="800" alt="screenshot" src="https://user-images.githubusercontent.com/47070852/124722843-07b16f00-df3d-11eb-891c-9a316e8d577c.gif">
+
 ## Get Started
 
 Install telescope and this plugin then
