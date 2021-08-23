@@ -17,7 +17,7 @@ require("telescope").load_extension("emoji")
 ## Usage
 
 ```
-:Telescope emoji search
+:Telescope emoji
 ```
 
 ## Configuraion
