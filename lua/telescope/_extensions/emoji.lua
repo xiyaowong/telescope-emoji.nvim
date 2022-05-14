@@ -32,7 +32,7 @@ local function search(opts)
       results = emojis,
       entry_maker = function(emoji)
         return {
-          ordinal = emoji.name,
+          ordinal = emoji.name .. emoji.category .. emoji.description,
           display = make_display,
 
           name = emoji.name,
