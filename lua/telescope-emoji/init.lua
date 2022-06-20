@@ -15,7 +15,12 @@ local emojis = {
     description = "face smile happy joy :D grin",
   },
   { name = "grimacing", value = "😬", category = "people", description = "face grimace teeth" },
-  { name = "grin", value = "😁", category = "people", description = "face happy smile joy kawaii" },
+  {
+    name = "grin",
+    value = "😁",
+    category = "people",
+    description = "face happy smile joy kawaii",
+  },
   {
     name = "joy",
     value = "😂",
@@ -52,7 +57,12 @@ local emojis = {
     category = "people",
     description = "happy joy lol satisfied haha face glad XD laugh",
   },
-  { name = "innocent", value = "😇", category = "people", description = "face angel heaven halo" },
+  {
+    name = "innocent",
+    value = "😇",
+    category = "people",
+    description = "face angel heaven halo",
+  },
   {
     name = "wink",
     value = "😉",
@@ -65,7 +75,12 @@ local emojis = {
     category = "people",
     description = "face smile happy flushed crush embarrassed shy joy",
   },
-  { name = "slightly_smiling_face", value = "🙂", category = "people", description = "face smile" },
+  {
+    name = "slightly_smiling_face",
+    value = "🙂",
+    category = "people",
+    description = "face smile",
+  },
   {
     name = "upside_down_face",
     value = "🙃",
@@ -144,7 +159,12 @@ local emojis = {
     category = "people",
     description = "face rich dollar money",
   },
-  { name = "nerd_face", value = "🤓", category = "people", description = "face nerdy geek dork" },
+  {
+    name = "nerd_face",
+    value = "🤓",
+    category = "people",
+    description = "face nerdy geek dork",
+  },
   {
     name = "sunglasses",
     value = "😎",
@@ -152,7 +172,12 @@ local emojis = {
     description = "face cool smile summer beach sunglass",
   },
   { name = "clown_face", value = "🤡", category = "people", description = "face" },
-  { name = "cowboy_hat_face", value = "🤠", category = "people", description = "face cowgirl hat" },
+  {
+    name = "cowboy_hat_face",
+    value = "🤠",
+    category = "people",
+    description = "face cowgirl hat",
+  },
   { name = "hugs", value = "🤗", category = "people", description = "face smile hug" },
   {
     name = "smirk",
@@ -179,20 +204,50 @@ local emojis = {
     category = "people",
     description = "indifference bored straight face serious sarcasm",
   },
-  { name = "roll_eyes", value = "🙄", category = "people", description = "face eyeroll frustrated" },
-  { name = "thinking", value = "🤔", category = "people", description = "face hmmm think consider" },
+  {
+    name = "roll_eyes",
+    value = "🙄",
+    category = "people",
+    description = "face eyeroll frustrated",
+  },
+  {
+    name = "thinking",
+    value = "🤔",
+    category = "people",
+    description = "face hmmm think consider",
+  },
   { name = "lying_face", value = "🤥", category = "people", description = "face lie pinocchio" },
-  { name = "flushed", value = "😳", category = "people", description = "face blush shy flattered" },
+  {
+    name = "flushed",
+    value = "😳",
+    category = "people",
+    description = "face blush shy flattered",
+  },
   {
     name = "disappointed",
     value = "😞",
     category = "people",
     description = "face sad upset depressed :(",
   },
-  { name = "worried", value = "😟", category = "people", description = "face concern nervous :(" },
-  { name = "angry", value = "😠", category = "people", description = "mad face annoyed frustrated" },
+  {
+    name = "worried",
+    value = "😟",
+    category = "people",
+    description = "face concern nervous :(",
+  },
+  {
+    name = "angry",
+    value = "😠",
+    category = "people",
+    description = "mad face annoyed frustrated",
+  },
   { name = "rage", value = "😡", category = "people", description = "angry mad hate despise" },
-  { name = "pensive", value = "😔", category = "people", description = "face sad depressed upset" },
+  {
+    name = "pensive",
+    value = "😔",
+    category = "people",
+    description = "face sad depressed upset",
+  },
   {
     name = "confused",
     value = "😕",
@@ -205,8 +260,18 @@ local emojis = {
     category = "people",
     description = "face frowning disappointed sad upset",
   },
-  { name = "frowning_face", value = "☹", category = "people", description = "face sad upset frown" },
-  { name = "persevere", value = "😣", category = "people", description = "face sick no upset oops" },
+  {
+    name = "frowning_face",
+    value = "☹",
+    category = "people",
+    description = "face sad upset frown",
+  },
+  {
+    name = "persevere",
+    value = "😣",
+    category = "people",
+    description = "face sick no upset oops",
+  },
   {
     name = "confounded",
     value = "😖",
@@ -225,7 +290,12 @@ local emojis = {
     category = "people",
     description = "face tired sleepy sad frustrated upset",
   },
-  { name = "triumph", value = "😤", category = "people", description = "face gas phew proud pride" },
+  {
+    name = "triumph",
+    value = "😤",
+    category = "people",
+    description = "face gas phew proud pride",
+  },
   {
     name = "open_mouth",
     value = "😮",
@@ -242,7 +312,12 @@ local emojis = {
   { name = "cold_sweat", value = "😰", category = "people", description = "face nervous sweat" },
   { name = "hushed", value = "😯", category = "people", description = "face woo shh" },
   { name = "frowning", value = "😦", category = "people", description = "face aw what" },
-  { name = "anguished", value = "😧", category = "people", description = "face stunned nervous" },
+  {
+    name = "anguished",
+    value = "😧",
+    category = "people",
+    description = "face stunned nervous",
+  },
   {
     name = "cry",
     value = "😢",
@@ -257,7 +332,12 @@ local emojis = {
   },
   { name = "drooling_face", value = "🤤", category = "people", description = "face" },
   { name = "sleepy", value = "😪", category = "people", description = "face tired rest nap" },
-  { name = "sweat", value = "😓", category = "people", description = "face hot sad tired exercise" },
+  {
+    name = "sweat",
+    value = "😓",
+    category = "people",
+    description = "face hot sad tired exercise",
+  },
   {
     name = "sob",
     value = "😭",
@@ -334,9 +414,19 @@ local emojis = {
     category = "people",
     description = "red evil mask monster scary creepy japanese goblin",
   },
-  { name = "skull", value = "💀", category = "people", description = "dead skeleton creepy death" },
+  {
+    name = "skull",
+    value = "💀",
+    category = "people",
+    description = "dead skeleton creepy death",
+  },
   { name = "ghost", value = "👻", category = "people", description = "halloween spooky scary" },
-  { name = "alien", value = "👽", category = "people", description = "UFO paul weird outer_space" },
+  {
+    name = "alien",
+    value = "👽",
+    category = "people",
+    description = "UFO paul weird outer_space",
+  },
   { name = "robot", value = "🤖", category = "people", description = "computer machine bot" },
   {
     name = "smiley_cat",
@@ -450,7 +540,12 @@ local emojis = {
     description = "please hope wish namaste highfive",
   },
   { name = "handshake", value = "🤝", category = "people", description = "agreement shake" },
-  { name = "point_up", value = "☝", category = "people", description = "hand fingers direction up" },
+  {
+    name = "point_up",
+    value = "☝",
+    category = "people",
+    description = "hand fingers direction up",
+  },
   {
     name = "point_up_2",
     value = "👆",
@@ -518,7 +613,12 @@ local emojis = {
   { name = "ear", value = "👂", category = "people", description = "face hear sound listen" },
   { name = "nose", value = "👃", category = "people", description = "smell sniff" },
   { name = "eye", value = "👁", category = "people", description = "face look see watch stare" },
-  { name = "eyes", value = "👀", category = "people", description = "look watch stalk peek see" },
+  {
+    name = "eyes",
+    value = "👀",
+    category = "people",
+    description = "look watch stalk peek see",
+  },
   {
     name = "bust_in_silhouette",
     value = "👤",
@@ -667,7 +767,12 @@ local emojis = {
     category = "people",
     description = "chef woman human",
   },
-  { name = "man_cook", value = "👨‍🍳", category = "people", description = "chef man human" },
+  {
+    name = "man_cook",
+    value = "👨‍🍳",
+    category = "people",
+    description = "chef man human",
+  },
   {
     name = "woman_student",
     value = "👩‍🎓",
@@ -882,7 +987,12 @@ local emojis = {
   },
   { name = "walking_man", value = "🚶", category = "people", description = "human feet steps" },
   { name = "dancer", value = "💃", category = "people", description = "female girl woman fun" },
-  { name = "man_dancing", value = "🕺", category = "people", description = "male boy fun dancer" },
+  {
+    name = "man_dancing",
+    value = "🕺",
+    category = "people",
+    description = "male boy fun dancer",
+  },
   {
     name = "dancing_women",
     value = "👯",
@@ -992,8 +1102,18 @@ local emojis = {
     category = "people",
     description = "male boy man",
   },
-  { name = "pouting_woman", value = "🙎", category = "people", description = "female girl woman" },
-  { name = "pouting_man", value = "🙎‍♂️", category = "people", description = "male boy man" },
+  {
+    name = "pouting_woman",
+    value = "🙎",
+    category = "people",
+    description = "female girl woman",
+  },
+  {
+    name = "pouting_man",
+    value = "🙎‍♂️",
+    category = "people",
+    description = "male boy man",
+  },
   {
     name = "frowning_woman",
     value = "🙍",
@@ -1006,8 +1126,18 @@ local emojis = {
     category = "people",
     description = "male boy man sad depressed discouraged unhappy",
   },
-  { name = "haircut_woman", value = "💇", category = "people", description = "female girl woman" },
-  { name = "haircut_man", value = "💇‍♂️", category = "people", description = "male boy man" },
+  {
+    name = "haircut_woman",
+    value = "💇",
+    category = "people",
+    description = "female girl woman",
+  },
+  {
+    name = "haircut_man",
+    value = "💇‍♂️",
+    category = "people",
+    description = "male boy man",
+  },
   {
     name = "massage_woman",
     value = "💆",
@@ -1225,7 +1355,12 @@ local emojis = {
     category = "people",
     description = "shirt suitup formal fashion cloth business",
   },
-  { name = "dress", value = "👗", category = "people", description = "clothes fashion shopping" },
+  {
+    name = "dress",
+    value = "👗",
+    category = "people",
+    description = "clothes fashion shopping",
+  },
   {
     name = "bikini",
     value = "👙",
@@ -1262,7 +1397,12 @@ local emojis = {
     category = "people",
     description = "fashion shoes female pumps stiletto",
   },
-  { name = "sandal", value = "👡", category = "people", description = "shoes fashion flip flops" },
+  {
+    name = "sandal",
+    value = "👡",
+    category = "people",
+    description = "shoes fashion flip flops",
+  },
   { name = "boot", value = "👢", category = "people", description = "shoes fashion" },
   { name = "mans_shoe", value = "👞", category = "people", description = "fashion male" },
   {
@@ -1307,7 +1447,12 @@ local emojis = {
     category = "people",
     description = "student education bag backpack",
   },
-  { name = "pouch", value = "👝", category = "people", description = "bag accessories shopping" },
+  {
+    name = "pouch",
+    value = "👝",
+    category = "people",
+    description = "bag accessories shopping",
+  },
   {
     name = "purse",
     value = "👛",
@@ -1368,7 +1513,12 @@ local emojis = {
     category = "animals_and_nature",
     description = "animal nature cheese_wedge rodent",
   },
-  { name = "hamster", value = "🐹", category = "animals_and_nature", description = "animal nature" },
+  {
+    name = "hamster",
+    value = "🐹",
+    category = "animals_and_nature",
+    description = "animal nature",
+  },
   {
     name = "rabbit",
     value = "🐰",
@@ -1393,14 +1543,24 @@ local emojis = {
     category = "animals_and_nature",
     description = "animal nature panda",
   },
-  { name = "koala", value = "🐨", category = "animals_and_nature", description = "animal nature" },
+  {
+    name = "koala",
+    value = "🐨",
+    category = "animals_and_nature",
+    description = "animal nature",
+  },
   {
     name = "tiger",
     value = "🐯",
     category = "animals_and_nature",
     description = "animal cat danger wild nature roar",
   },
-  { name = "lion", value = "🦁", category = "animals_and_nature", description = "animal nature" },
+  {
+    name = "lion",
+    value = "🦁",
+    category = "animals_and_nature",
+    description = "animal nature",
+  },
   {
     name = "cow",
     value = "🐮",
@@ -1413,7 +1573,12 @@ local emojis = {
     category = "animals_and_nature",
     description = "animal oink nature",
   },
-  { name = "pig_nose", value = "🐽", category = "animals_and_nature", description = "animal oink" },
+  {
+    name = "pig_nose",
+    value = "🐽",
+    category = "animals_and_nature",
+    description = "animal oink",
+  },
   {
     name = "frog",
     value = "🐸",
@@ -1480,7 +1645,12 @@ local emojis = {
     category = "animals_and_nature",
     description = "animal cluck nature bird",
   },
-  { name = "penguin", value = "🐧", category = "animals_and_nature", description = "animal nature" },
+  {
+    name = "penguin",
+    value = "🐧",
+    category = "animals_and_nature",
+    description = "animal nature",
+  },
   {
     name = "bird",
     value = "🐦",
@@ -1535,7 +1705,12 @@ local emojis = {
     category = "animals_and_nature",
     description = "animal nature wild",
   },
-  { name = "boar", value = "🐗", category = "animals_and_nature", description = "animal nature" },
+  {
+    name = "boar",
+    value = "🐗",
+    category = "animals_and_nature",
+    description = "animal nature",
+  },
   {
     name = "horse",
     value = "🐴",
@@ -1668,7 +1843,12 @@ local emojis = {
     category = "animals_and_nature",
     description = "animal nature reptile lizard alligator",
   },
-  { name = "leopard", value = "🐆", category = "animals_and_nature", description = "animal nature" },
+  {
+    name = "leopard",
+    value = "🐆",
+    category = "animals_and_nature",
+    description = "animal nature",
+  },
   {
     name = "tiger2",
     value = "🐅",
@@ -1681,7 +1861,12 @@ local emojis = {
     category = "animals_and_nature",
     description = "animal nature ox cow",
   },
-  { name = "ox", value = "🐂", category = "animals_and_nature", description = "animal cow beef" },
+  {
+    name = "ox",
+    value = "🐂",
+    category = "animals_and_nature",
+    description = "animal cow beef",
+  },
   {
     name = "cow2",
     value = "🐄",
@@ -1718,7 +1903,12 @@ local emojis = {
     category = "animals_and_nature",
     description = "animal nature horn",
   },
-  { name = "goat", value = "🐐", category = "animals_and_nature", description = "animal nature" },
+  {
+    name = "goat",
+    value = "🐐",
+    category = "animals_and_nature",
+    description = "animal nature",
+  },
   {
     name = "ram",
     value = "🐏",
@@ -1737,7 +1927,12 @@ local emojis = {
     category = "animals_and_nature",
     description = "animal gamble luck",
   },
-  { name = "pig2", value = "🐖", category = "animals_and_nature", description = "animal nature" },
+  {
+    name = "pig2",
+    value = "🐖",
+    category = "animals_and_nature",
+    description = "animal nature",
+  },
   {
     name = "rat",
     value = "🐀",
@@ -1756,7 +1951,12 @@ local emojis = {
     category = "animals_and_nature",
     description = "animal nature chicken",
   },
-  { name = "turkey", value = "🦃", category = "animals_and_nature", description = "animal bird" },
+  {
+    name = "turkey",
+    value = "🦃",
+    category = "animals_and_nature",
+    description = "animal bird",
+  },
   { name = "dove", value = "🕊", category = "animals_and_nature", description = "animal bird" },
   {
     name = "dog2",
@@ -2126,7 +2326,12 @@ local emojis = {
     category = "animals_and_nature",
     description = "weather",
   },
-  { name = "cloud", value = "☁️", category = "animals_and_nature", description = "weather sky" },
+  {
+    name = "cloud",
+    value = "☁️",
+    category = "animals_and_nature",
+    description = "weather sky",
+  },
   {
     name = "cloud_with_rain",
     value = "🌧",
@@ -2151,7 +2356,12 @@ local emojis = {
     category = "animals_and_nature",
     description = "thunder weather lightning bolt fast",
   },
-  { name = "fire", value = "🔥", category = "animals_and_nature", description = "hot cook flame" },
+  {
+    name = "fire",
+    value = "🔥",
+    category = "animals_and_nature",
+    description = "hot cook flame",
+  },
   {
     name = "boom",
     value = "💥",
@@ -2182,7 +2392,12 @@ local emojis = {
     category = "animals_and_nature",
     description = "winter season cold weather christmas xmas frozen",
   },
-  { name = "wind_face", value = "🌬", category = "animals_and_nature", description = "gust air" },
+  {
+    name = "wind_face",
+    value = "🌬",
+    category = "animals_and_nature",
+    description = "gust air",
+  },
   {
     name = "dash",
     value = "💨",
@@ -2226,9 +2441,24 @@ local emojis = {
     category = "animals_and_nature",
     description = "sea water wave nature tsunami disaster",
   },
-  { name = "green_apple", value = "🍏", category = "food_and_drink", description = "fruit nature" },
-  { name = "apple", value = "🍎", category = "food_and_drink", description = "fruit mac school" },
-  { name = "pear", value = "🍐", category = "food_and_drink", description = "fruit nature food" },
+  {
+    name = "green_apple",
+    value = "🍏",
+    category = "food_and_drink",
+    description = "fruit nature",
+  },
+  {
+    name = "apple",
+    value = "🍎",
+    category = "food_and_drink",
+    description = "fruit mac school",
+  },
+  {
+    name = "pear",
+    value = "🍐",
+    category = "food_and_drink",
+    description = "fruit nature food",
+  },
   {
     name = "tangerine",
     value = "🍊",
@@ -2236,23 +2466,43 @@ local emojis = {
     description = "food fruit nature orange",
   },
   { name = "lemon", value = "🍋", category = "food_and_drink", description = "fruit nature" },
-  { name = "banana", value = "🍌", category = "food_and_drink", description = "fruit food monkey" },
+  {
+    name = "banana",
+    value = "🍌",
+    category = "food_and_drink",
+    description = "fruit food monkey",
+  },
   {
     name = "watermelon",
     value = "🍉",
     category = "food_and_drink",
     description = "fruit food picnic summer",
   },
-  { name = "grapes", value = "🍇", category = "food_and_drink", description = "fruit food wine" },
+  {
+    name = "grapes",
+    value = "🍇",
+    category = "food_and_drink",
+    description = "fruit food wine",
+  },
   {
     name = "strawberry",
     value = "🍓",
     category = "food_and_drink",
     description = "fruit food nature",
   },
-  { name = "melon", value = "🍈", category = "food_and_drink", description = "fruit nature food" },
+  {
+    name = "melon",
+    value = "🍈",
+    category = "food_and_drink",
+    description = "fruit nature food",
+  },
   { name = "cherries", value = "🍒", category = "food_and_drink", description = "food fruit" },
-  { name = "peach", value = "🍑", category = "food_and_drink", description = "fruit nature food" },
+  {
+    name = "peach",
+    value = "🍑",
+    category = "food_and_drink",
+    description = "fruit nature food",
+  },
   {
     name = "pineapple",
     value = "🍍",
@@ -2297,8 +2547,18 @@ local emojis = {
     category = "food_and_drink",
     description = "food tuber vegatable starch",
   },
-  { name = "corn", value = "🌽", category = "food_and_drink", description = "food vegetable plant" },
-  { name = "sweet_potato", value = "🍠", category = "food_and_drink", description = "food nature" },
+  {
+    name = "corn",
+    value = "🌽",
+    category = "food_and_drink",
+    description = "food vegetable plant",
+  },
+  {
+    name = "sweet_potato",
+    value = "🍠",
+    category = "food_and_drink",
+    description = "food nature",
+  },
   { name = "peanuts", value = "🥜", category = "food_and_drink", description = "food nut" },
   {
     name = "honey_pot",
@@ -2385,7 +2645,12 @@ local emojis = {
     category = "food_and_drink",
     description = "food flatbread stuffed gyro",
   },
-  { name = "hotdog", value = "🌭", category = "food_and_drink", description = "food frankfurter" },
+  {
+    name = "hotdog",
+    value = "🌭",
+    category = "food_and_drink",
+    description = "food frankfurter",
+  },
   { name = "pizza", value = "🍕", category = "food_and_drink", description = "food party" },
   {
     name = "spaghetti",
@@ -2426,14 +2691,24 @@ local emojis = {
     category = "food_and_drink",
     description = "food fish japanese rice",
   },
-  { name = "bento", value = "🍱", category = "food_and_drink", description = "food japanese box" },
+  {
+    name = "bento",
+    value = "🍱",
+    category = "food_and_drink",
+    description = "food japanese box",
+  },
   {
     name = "curry",
     value = "🍛",
     category = "food_and_drink",
     description = "food spicy hot indian",
   },
-  { name = "rice_ball", value = "🍙", category = "food_and_drink", description = "food japanese" },
+  {
+    name = "rice_ball",
+    value = "🍙",
+    category = "food_and_drink",
+    description = "food japanese",
+  },
   { name = "rice", value = "🍚", category = "food_and_drink", description = "food china asian" },
   {
     name = "rice_cracker",
@@ -2691,7 +2966,12 @@ local emojis = {
     category = "activity",
     description = "food hobby summer",
   },
-  { name = "boxing_glove", value = "🥊", category = "activity", description = "sports fighting" },
+  {
+    name = "boxing_glove",
+    value = "🥊",
+    category = "activity",
+    description = "sports fighting",
+  },
   {
     name = "martial_arts_uniform",
     value = "🥋",
@@ -2827,7 +3107,12 @@ local emojis = {
     category = "activity",
     description = "award winning first",
   },
-  { name = "2nd_place_medal", value = "🥈", category = "activity", description = "award second" },
+  {
+    name = "2nd_place_medal",
+    value = "🥈",
+    category = "activity",
+    description = "award second",
+  },
   { name = "3rd_place_medal", value = "🥉", category = "activity", description = "award third" },
   {
     name = "reminder_ribbon",
@@ -2842,14 +3127,24 @@ local emojis = {
     description = "flower decoration military",
   },
   { name = "ticket", value = "🎫", category = "activity", description = "event concert pass" },
-  { name = "tickets", value = "🎟", category = "activity", description = "sports concert entrance" },
+  {
+    name = "tickets",
+    value = "🎟",
+    category = "activity",
+    description = "sports concert entrance",
+  },
   {
     name = "performing_arts",
     value = "🎭",
     category = "activity",
     description = "acting theater drama",
   },
-  { name = "art", value = "🎨", category = "activity", description = "design paint draw colors" },
+  {
+    name = "art",
+    value = "🎨",
+    category = "activity",
+    description = "design paint draw colors",
+  },
   {
     name = "circus_tent",
     value = "🎪",
@@ -2874,7 +3169,12 @@ local emojis = {
     category = "activity",
     description = "sound music PA sing talkshow",
   },
-  { name = "headphones", value = "🎧", category = "activity", description = "music score gadgets" },
+  {
+    name = "headphones",
+    value = "🎧",
+    category = "activity",
+    description = "music score gadgets",
+  },
   {
     name = "musical_score",
     value = "🎼",
@@ -2914,7 +3214,12 @@ local emojis = {
     category = "activity",
     description = "play console PS4 controller",
   },
-  { name = "space_invader", value = "👾", category = "activity", description = "game arcade play" },
+  {
+    name = "space_invader",
+    value = "👾",
+    category = "activity",
+    description = "game arcade play",
+  },
   { name = "dart", value = "🎯", category = "activity", description = "game play bar" },
   {
     name = "game_die",
@@ -3194,7 +3499,12 @@ local emojis = {
     category = "travel_and_places",
     description = "ship transportation vehicle summer",
   },
-  { name = "ferry", value = "⛴", category = "travel_and_places", description = "boat ship yacht" },
+  {
+    name = "ferry",
+    value = "⛴",
+    category = "travel_and_places",
+    description = "boat ship yacht",
+  },
   {
     name = "passenger_ship",
     value = "🛳",
@@ -3297,7 +3607,12 @@ local emojis = {
     category = "travel_and_places",
     description = "wip working progress",
   },
-  { name = "foggy", value = "🌁", category = "travel_and_places", description = "photo mountain" },
+  {
+    name = "foggy",
+    value = "🌁",
+    category = "travel_and_places",
+    description = "photo mountain",
+  },
   {
     name = "tokyo_tower",
     value = "🗼",
@@ -3467,7 +3782,12 @@ local emojis = {
     category = "travel_and_places",
     description = "nature happy unicorn_face photo sky spring",
   },
-  { name = "houses", value = "🏘", category = "travel_and_places", description = "buildings photo" },
+  {
+    name = "houses",
+    value = "🏘",
+    category = "travel_and_places",
+    description = "buildings photo",
+  },
   {
     name = "european_castle",
     value = "🏰",
@@ -3492,7 +3812,12 @@ local emojis = {
     category = "travel_and_places",
     description = "american newyork",
   },
-  { name = "house", value = "🏠", category = "travel_and_places", description = "building home" },
+  {
+    name = "house",
+    value = "🏠",
+    category = "travel_and_places",
+    description = "building home",
+  },
   {
     name = "house_with_garden",
     value = "🏡",
@@ -3635,7 +3960,12 @@ local emojis = {
   },
   { name = "printer", value = "🖨", category = "objects", description = "paper ink" },
   { name = "computer_mouse", value = "🖱", category = "objects", description = "click" },
-  { name = "trackball", value = "🖲", category = "objects", description = "technology trackpad" },
+  {
+    name = "trackball",
+    value = "🖲",
+    category = "objects",
+    description = "technology trackpad",
+  },
   { name = "joystick", value = "🕹", category = "objects", description = "game play" },
   { name = "clamp", value = "🗜", category = "objects", description = "tool" },
   {
@@ -3650,7 +3980,12 @@ local emojis = {
     category = "objects",
     description = "oldschool technology save 90s 80s",
   },
-  { name = "cd", value = "💿", category = "objects", description = "technology dvd disk disc 90s" },
+  {
+    name = "cd",
+    value = "💿",
+    category = "objects",
+    description = "technology dvd disk disc 90s",
+  },
   { name = "dvd", value = "📀", category = "objects", description = "cd disk disc" },
   {
     name = "vhs",
@@ -3659,7 +3994,12 @@ local emojis = {
     description = "record video oldschool 90s 80s",
   },
   { name = "camera", value = "📷", category = "objects", description = "gadgets photography" },
-  { name = "camera_flash", value = "📸", category = "objects", description = "photography gadgets" },
+  {
+    name = "camera_flash",
+    value = "📸",
+    category = "objects",
+    description = "photography gadgets",
+  },
   { name = "video_camera", value = "📹", category = "objects", description = "film record" },
   { name = "movie_camera", value = "🎥", category = "objects", description = "film record" },
   {
@@ -3748,14 +4088,24 @@ local emojis = {
     category = "objects",
     description = "dollar bills payment sale",
   },
-  { name = "dollar", value = "💵", category = "objects", description = "money sales bill currency" },
+  {
+    name = "dollar",
+    value = "💵",
+    category = "objects",
+    description = "money sales bill currency",
+  },
   {
     name = "yen",
     value = "💴",
     category = "objects",
     description = "money sales japanese dollar currency",
   },
-  { name = "euro", value = "💶", category = "objects", description = "money sales dollar currency" },
+  {
+    name = "euro",
+    value = "💶",
+    category = "objects",
+    description = "money sales dollar currency",
+  },
   {
     name = "pound",
     value = "💷",
@@ -3774,8 +4124,18 @@ local emojis = {
     category = "objects",
     description = "money sales dollar bill payment shopping",
   },
-  { name = "gem", value = "💎", category = "objects", description = "blue ruby diamond jewelry" },
-  { name = "balance_scale", value = "⚖", category = "objects", description = "law fairness weight" },
+  {
+    name = "gem",
+    value = "💎",
+    category = "objects",
+    description = "blue ruby diamond jewelry",
+  },
+  {
+    name = "balance_scale",
+    value = "⚖",
+    category = "objects",
+    description = "law fairness weight",
+  },
   {
     name = "wrench",
     value = "🔧",
@@ -3899,7 +4259,12 @@ local emojis = {
     description = "restroom wc washroom bathroom potty",
   },
   { name = "shower", value = "🚿", category = "objects", description = "clean water bathroom" },
-  { name = "bathtub", value = "🛁", category = "objects", description = "clean shower bathroom" },
+  {
+    name = "bathtub",
+    value = "🛁",
+    category = "objects",
+    description = "clean shower bathroom",
+  },
   { name = "key", value = "🔑", category = "objects", description = "lock door password" },
   { name = "old_key", value = "🗝", category = "objects", description = "lock door password" },
   { name = "couch_and_lamp", value = "🛋", category = "objects", description = "read chill" },
@@ -3909,8 +4274,18 @@ local emojis = {
   { name = "bellhop_bell", value = "🛎", category = "objects", description = "service" },
   { name = "framed_picture", value = "🖼", category = "objects", description = "photography" },
   { name = "world_map", value = "🗺", category = "objects", description = "location direction" },
-  { name = "parasol_on_ground", value = "⛱", category = "objects", description = "weather summer" },
-  { name = "moyai", value = "🗿", category = "objects", description = "rock easter island moai" },
+  {
+    name = "parasol_on_ground",
+    value = "⛱",
+    category = "objects",
+    description = "weather summer",
+  },
+  {
+    name = "moyai",
+    value = "🗿",
+    category = "objects",
+    description = "rock easter island moai",
+  },
   { name = "shopping", value = "🛍", category = "objects", description = "mall buy purchase" },
   { name = "shopping_cart", value = "🛒", category = "objects", description = "trolley" },
   {
@@ -3980,7 +4355,12 @@ local emojis = {
     category = "objects",
     description = "email communication",
   },
-  { name = "incoming_envelope", value = "📨", category = "objects", description = "email inbox" },
+  {
+    name = "incoming_envelope",
+    value = "📨",
+    category = "objects",
+    description = "email inbox",
+  },
   { name = "e-mail", value = "📧", category = "objects", description = "communication inbox" },
   {
     name = "love_letter",
@@ -3988,7 +4368,12 @@ local emojis = {
     category = "objects",
     description = "email like affection envelope valentines",
   },
-  { name = "postbox", value = "📮", category = "objects", description = "email letter envelope" },
+  {
+    name = "postbox",
+    value = "📮",
+    category = "objects",
+    description = "email letter envelope",
+  },
   {
     name = "mailbox_closed",
     value = "📪",
@@ -4007,7 +4392,12 @@ local emojis = {
     category = "objects",
     description = "email inbox communication",
   },
-  { name = "mailbox_with_no_mail", value = "📭", category = "objects", description = "email inbox" },
+  {
+    name = "mailbox_with_no_mail",
+    value = "📭",
+    category = "objects",
+    description = "email inbox",
+  },
   {
     name = "package",
     value = "📦",
@@ -4060,14 +4450,24 @@ local emojis = {
     description = "documents office paper information",
   },
   { name = "date", value = "📅", category = "objects", description = "calendar schedule" },
-  { name = "calendar", value = "📆", category = "objects", description = "schedule date planning" },
+  {
+    name = "calendar",
+    value = "📆",
+    category = "objects",
+    description = "schedule date planning",
+  },
   {
     name = "spiral_calendar",
     value = "🗓",
     category = "objects",
     description = "date schedule planning",
   },
-  { name = "card_index", value = "📇", category = "objects", description = "business stationery" },
+  {
+    name = "card_index",
+    value = "📇",
+    category = "objects",
+    description = "business stationery",
+  },
   {
     name = "card_file_box",
     value = "🗃",
@@ -4075,23 +4475,48 @@ local emojis = {
     description = "business stationery",
   },
   { name = "ballot_box", value = "🗳", category = "objects", description = "election vote" },
-  { name = "file_cabinet", value = "🗄", category = "objects", description = "filing organizing" },
-  { name = "clipboard", value = "📋", category = "objects", description = "stationery documents" },
-  { name = "spiral_notepad", value = "🗒", category = "objects", description = "memo stationery" },
+  {
+    name = "file_cabinet",
+    value = "🗄",
+    category = "objects",
+    description = "filing organizing",
+  },
+  {
+    name = "clipboard",
+    value = "📋",
+    category = "objects",
+    description = "stationery documents",
+  },
+  {
+    name = "spiral_notepad",
+    value = "🗒",
+    category = "objects",
+    description = "memo stationery",
+  },
   {
     name = "file_folder",
     value = "📁",
     category = "objects",
     description = "documents business office",
   },
-  { name = "open_file_folder", value = "📂", category = "objects", description = "documents load" },
+  {
+    name = "open_file_folder",
+    value = "📂",
+    category = "objects",
+    description = "documents load",
+  },
   {
     name = "card_index_dividers",
     value = "🗂",
     category = "objects",
     description = "organizing business stationery",
   },
-  { name = "newspaper_roll", value = "🗞", category = "objects", description = "press headline" },
+  {
+    name = "newspaper_roll",
+    value = "🗞",
+    category = "objects",
+    description = "press headline",
+  },
   { name = "newspaper", value = "📰", category = "objects", description = "press headline" },
   {
     name = "notebook",
@@ -4130,7 +4555,12 @@ local emojis = {
     description = "classroom notes record paper study",
   },
   { name = "ledger", value = "📒", category = "objects", description = "notes paper" },
-  { name = "books", value = "📚", category = "objects", description = "literature library study" },
+  {
+    name = "books",
+    value = "📚",
+    category = "objects",
+    description = "literature library study",
+  },
   {
     name = "open_book",
     value = "📖",
@@ -4138,8 +4568,18 @@ local emojis = {
     description = "book read library knowledge literature learn study",
   },
   { name = "link", value = "🔗", category = "objects", description = "rings url" },
-  { name = "paperclip", value = "📎", category = "objects", description = "documents stationery" },
-  { name = "paperclips", value = "🖇", category = "objects", description = "documents stationery" },
+  {
+    name = "paperclip",
+    value = "📎",
+    category = "objects",
+    description = "documents stationery",
+  },
+  {
+    name = "paperclips",
+    value = "🖇",
+    category = "objects",
+    description = "documents stationery",
+  },
   { name = "scissors", value = "✂️", category = "objects", description = "stationery cut" },
   {
     name = "triangular_ruler",
@@ -4185,7 +4625,12 @@ local emojis = {
     category = "objects",
     description = "security privacy",
   },
-  { name = "lock", value = "🔒", category = "objects", description = "security password padlock" },
+  {
+    name = "lock",
+    value = "🔒",
+    category = "objects",
+    description = "security password padlock",
+  },
   { name = "unlock", value = "🔓", category = "objects", description = "privacy security" },
   {
     name = "lock_with_ink_pen",
@@ -4225,7 +4670,12 @@ local emojis = {
     category = "objects",
     description = "drawing creativity art",
   },
-  { name = "mag", value = "🔍", category = "objects", description = "search zoom find detective" },
+  {
+    name = "mag",
+    value = "🔍",
+    category = "objects",
+    description = "search zoom find detective",
+  },
   {
     name = "mag_right",
     value = "🔎",
@@ -4335,7 +4785,12 @@ local emojis = {
     category = "symbols",
     description = "purple-square religion jewish hexagram",
   },
-  { name = "menorah", value = "🕎", category = "symbols", description = "hanukkah candles jewish" },
+  {
+    name = "menorah",
+    value = "🕎",
+    category = "symbols",
+    description = "hanukkah candles jewish",
+  },
   { name = "yin_yang", value = "☯", category = "symbols", description = "balance" },
   {
     name = "orthodox_cross",
@@ -4540,11 +4995,26 @@ local emojis = {
     category = "symbols",
     description = "kanji japanese chinese forbidden limit restricted red-square",
   },
-  { name = "a", value = "🅰️", category = "symbols", description = "red-square alphabet letter" },
-  { name = "b", value = "🅱️", category = "symbols", description = "red-square alphabet letter" },
+  {
+    name = "a",
+    value = "🅰️",
+    category = "symbols",
+    description = "red-square alphabet letter",
+  },
+  {
+    name = "b",
+    value = "🅱️",
+    category = "symbols",
+    description = "red-square alphabet letter",
+  },
   { name = "ab", value = "🆎", category = "symbols", description = "red-square alphabet" },
   { name = "cl", value = "🆑", category = "symbols", description = "alphabet words red-square" },
-  { name = "o2", value = "🅾️", category = "symbols", description = "alphabet red-square letter" },
+  {
+    name = "o2",
+    value = "🅾️",
+    category = "symbols",
+    description = "alphabet red-square letter",
+  },
   {
     name = "sos",
     value = "🆘",
@@ -4624,7 +5094,12 @@ local emojis = {
     category = "symbols",
     description = "doubts gray huh confused",
   },
-  { name = "bangbang", value = "‼️", category = "symbols", description = "exclamation surprise" },
+  {
+    name = "bangbang",
+    value = "‼️",
+    category = "symbols",
+    description = "exclamation surprise",
+  },
   {
     name = "interrobang",
     value = "⁉️",
@@ -4720,7 +5195,12 @@ local emojis = {
     category = "symbols",
     description = "earth international world internet interweb i18n",
   },
-  { name = "m", value = "Ⓜ️", category = "symbols", description = "alphabet blue-circle letter" },
+  {
+    name = "m",
+    value = "Ⓜ️",
+    category = "symbols",
+    description = "alphabet blue-circle letter",
+  },
   {
     name = "atm",
     value = "🏧",
@@ -4751,7 +5231,12 @@ local emojis = {
     category = "symbols",
     description = "blue-square airport transport",
   },
-  { name = "left_luggage", value = "🛅", category = "symbols", description = "blue-square travel" },
+  {
+    name = "left_luggage",
+    value = "🛅",
+    category = "symbols",
+    description = "blue-square travel",
+  },
   {
     name = "wheelchair",
     value = "♿",
@@ -4764,7 +5249,12 @@ local emojis = {
     category = "symbols",
     description = "cigarette blue-square smell smoke",
   },
-  { name = "wc", value = "🚾", category = "symbols", description = "toilet restroom blue-square" },
+  {
+    name = "wc",
+    value = "🚾",
+    category = "symbols",
+    description = "toilet restroom blue-square",
+  },
   {
     name = "parking",
     value = "🅿️",
@@ -4789,7 +5279,12 @@ local emojis = {
     category = "symbols",
     description = "purple-square woman female toilet loo restroom gender",
   },
-  { name = "baby_symbol", value = "🚼", category = "symbols", description = "orange-square child" },
+  {
+    name = "baby_symbol",
+    value = "🚼",
+    category = "symbols",
+    description = "orange-square child",
+  },
   {
     name = "restroom",
     value = "🚻",
@@ -4820,7 +5315,12 @@ local emojis = {
     category = "symbols",
     description = "blue-square here katakana japanese destination",
   },
-  { name = "ng", value = "🆖", category = "symbols", description = "blue-square words shape icon" },
+  {
+    name = "ng",
+    value = "🆖",
+    category = "symbols",
+    description = "blue-square words shape icon",
+  },
   {
     name = "ok",
     value = "🆗",
@@ -4850,7 +5350,12 @@ local emojis = {
     category = "symbols",
     description = "3 numbers prime blue-square",
   },
-  { name = "four", value = "4️⃣", category = "symbols", description = "4 numbers blue-square" },
+  {
+    name = "four",
+    value = "4️⃣",
+    category = "symbols",
+    description = "4 numbers blue-square",
+  },
   {
     name = "five",
     value = "5️⃣",
@@ -4864,8 +5369,18 @@ local emojis = {
     category = "symbols",
     description = "7 numbers blue-square prime",
   },
-  { name = "eight", value = "8️⃣", category = "symbols", description = "8 blue-square numbers" },
-  { name = "nine", value = "9️⃣", category = "symbols", description = "blue-square numbers 9" },
+  {
+    name = "eight",
+    value = "8️⃣",
+    category = "symbols",
+    description = "8 blue-square numbers",
+  },
+  {
+    name = "nine",
+    value = "9️⃣",
+    category = "symbols",
+    description = "blue-square numbers 9",
+  },
   {
     name = "keycap_ten",
     value = "🔟",
@@ -4879,7 +5394,12 @@ local emojis = {
     category = "symbols",
     description = "blue-square right direction play",
   },
-  { name = "pause_button", value = "⏸", category = "symbols", description = "pause blue-square" },
+  {
+    name = "pause_button",
+    value = "⏸",
+    category = "symbols",
+    description = "pause blue-square",
+  },
   {
     name = "next_track_button",
     value = "⏭",
@@ -4894,7 +5414,12 @@ local emojis = {
     category = "symbols",
     description = "blue-square play pause",
   },
-  { name = "previous_track_button", value = "⏮", category = "symbols", description = "backward" },
+  {
+    name = "previous_track_button",
+    value = "⏮",
+    category = "symbols",
+    description = "backward",
+  },
   {
     name = "fast_forward",
     value = "⏩",
@@ -4940,7 +5465,12 @@ local emojis = {
     category = "symbols",
     description = "blue-square direction bottom",
   },
-  { name = "arrow_right", value = "➡️", category = "symbols", description = "blue-square next" },
+  {
+    name = "arrow_right",
+    value = "➡️",
+    category = "symbols",
+    description = "blue-square next",
+  },
   {
     name = "arrow_left",
     value = "⬅️",
@@ -5051,7 +5581,12 @@ local emojis = {
     category = "symbols",
     description = "blue-square music note ampersand percent glyphs characters",
   },
-  { name = "musical_note", value = "🎵", category = "symbols", description = "score tone sound" },
+  {
+    name = "musical_note",
+    value = "🎵",
+    category = "symbols",
+    description = "score tone sound",
+  },
   { name = "notes", value = "🎶", category = "symbols", description = "music score" },
   {
     name = "wavy_dash",
@@ -5120,7 +5655,12 @@ local emojis = {
     description = "ip license circle law legal",
   },
   { name = "registered", value = "®️", category = "symbols", description = "alphabet circle" },
-  { name = "tm", value = "™️", category = "symbols", description = "trademark brand law legal" },
+  {
+    name = "tm",
+    value = "™️",
+    category = "symbols",
+    description = "trademark brand law legal",
+  },
   { name = "end", value = "🔚", category = "symbols", description = "words arrow" },
   { name = "back", value = "🔙", category = "symbols", description = "arrow words return" },
   { name = "on", value = "🔛", category = "symbols", description = "arrow words" },
@@ -5139,8 +5679,18 @@ local emojis = {
     description = "input old music circle",
   },
   { name = "white_circle", value = "⚪", category = "symbols", description = "shape round" },
-  { name = "black_circle", value = "⚫", category = "symbols", description = "shape button round" },
-  { name = "red_circle", value = "🔴", category = "symbols", description = "shape error danger" },
+  {
+    name = "black_circle",
+    value = "⚫",
+    category = "symbols",
+    description = "shape button round",
+  },
+  {
+    name = "red_circle",
+    value = "🔴",
+    category = "symbols",
+    description = "shape error danger",
+  },
   {
     name = "large_blue_circle",
     value = "🔵",
@@ -5177,8 +5727,18 @@ local emojis = {
     category = "symbols",
     description = "shape direction up top",
   },
-  { name = "black_small_square", value = "▪️", category = "symbols", description = "shape icon" },
-  { name = "white_small_square", value = "▫️", category = "symbols", description = "shape icon" },
+  {
+    name = "black_small_square",
+    value = "▪️",
+    category = "symbols",
+    description = "shape icon",
+  },
+  {
+    name = "white_small_square",
+    value = "▫️",
+    category = "symbols",
+    description = "shape icon",
+  },
   {
     name = "black_large_square",
     value = "⬛",
@@ -5227,21 +5787,36 @@ local emojis = {
     category = "symbols",
     description = "shape input frame",
   },
-  { name = "white_square_button", value = "🔳", category = "symbols", description = "shape input" },
+  {
+    name = "white_square_button",
+    value = "🔳",
+    category = "symbols",
+    description = "shape input",
+  },
   {
     name = "speaker",
     value = "🔈",
     category = "symbols",
     description = "sound volume silence broadcast",
   },
-  { name = "sound", value = "🔉", category = "symbols", description = "volume speaker broadcast" },
+  {
+    name = "sound",
+    value = "🔉",
+    category = "symbols",
+    description = "volume speaker broadcast",
+  },
   {
     name = "loud_sound",
     value = "🔊",
     category = "symbols",
     description = "volume noise noisy speaker broadcast",
   },
-  { name = "mute", value = "🔇", category = "symbols", description = "sound volume silence quiet" },
+  {
+    name = "mute",
+    value = "🔇",
+    category = "symbols",
+    description = "sound volume silence quiet",
+  },
   { name = "mega", value = "📣", category = "symbols", description = "sound speaker volume" },
   { name = "loudspeaker", value = "📢", category = "symbols", description = "volume sound" },
   {
@@ -5262,10 +5837,30 @@ local emojis = {
     category = "symbols",
     description = "poker cards game play magic",
   },
-  { name = "mahjong", value = "🀄", category = "symbols", description = "game play chinese kanji" },
-  { name = "spades", value = "♠️", category = "symbols", description = "poker cards suits magic" },
-  { name = "clubs", value = "♣️", category = "symbols", description = "poker cards magic suits" },
-  { name = "hearts", value = "♥️", category = "symbols", description = "poker cards magic suits" },
+  {
+    name = "mahjong",
+    value = "🀄",
+    category = "symbols",
+    description = "game play chinese kanji",
+  },
+  {
+    name = "spades",
+    value = "♠️",
+    category = "symbols",
+    description = "poker cards suits magic",
+  },
+  {
+    name = "clubs",
+    value = "♣️",
+    category = "symbols",
+    description = "poker cards magic suits",
+  },
+  {
+    name = "hearts",
+    value = "♥️",
+    category = "symbols",
+    description = "poker cards magic suits",
+  },
   {
     name = "diamonds",
     value = "♦️",
@@ -5302,22 +5897,72 @@ local emojis = {
     category = "symbols",
     description = "words message talk chatting",
   },
-  { name = "clock1", value = "🕐", category = "symbols", description = "time late early schedule" },
-  { name = "clock2", value = "🕑", category = "symbols", description = "time late early schedule" },
-  { name = "clock3", value = "🕒", category = "symbols", description = "time late early schedule" },
-  { name = "clock4", value = "🕓", category = "symbols", description = "time late early schedule" },
-  { name = "clock5", value = "🕔", category = "symbols", description = "time late early schedule" },
+  {
+    name = "clock1",
+    value = "🕐",
+    category = "symbols",
+    description = "time late early schedule",
+  },
+  {
+    name = "clock2",
+    value = "🕑",
+    category = "symbols",
+    description = "time late early schedule",
+  },
+  {
+    name = "clock3",
+    value = "🕒",
+    category = "symbols",
+    description = "time late early schedule",
+  },
+  {
+    name = "clock4",
+    value = "🕓",
+    category = "symbols",
+    description = "time late early schedule",
+  },
+  {
+    name = "clock5",
+    value = "🕔",
+    category = "symbols",
+    description = "time late early schedule",
+  },
   {
     name = "clock6",
     value = "🕕",
     category = "symbols",
     description = "time late early schedule dawn dusk",
   },
-  { name = "clock7", value = "🕖", category = "symbols", description = "time late early schedule" },
-  { name = "clock8", value = "🕗", category = "symbols", description = "time late early schedule" },
-  { name = "clock9", value = "🕘", category = "symbols", description = "time late early schedule" },
-  { name = "clock10", value = "🕙", category = "symbols", description = "time late early schedule" },
-  { name = "clock11", value = "🕚", category = "symbols", description = "time late early schedule" },
+  {
+    name = "clock7",
+    value = "🕖",
+    category = "symbols",
+    description = "time late early schedule",
+  },
+  {
+    name = "clock8",
+    value = "🕗",
+    category = "symbols",
+    description = "time late early schedule",
+  },
+  {
+    name = "clock9",
+    value = "🕘",
+    category = "symbols",
+    description = "time late early schedule",
+  },
+  {
+    name = "clock10",
+    value = "🕙",
+    category = "symbols",
+    description = "time late early schedule",
+  },
+  {
+    name = "clock11",
+    value = "🕚",
+    category = "symbols",
+    description = "time late early schedule",
+  },
   {
     name = "clock12",
     value = "🕛",
@@ -5822,7 +6467,12 @@ local emojis = {
     category = "flags",
     description = "et flag nation country banner",
   },
-  { name = "eu", value = "🇪🇺", category = "flags", description = "european union flag banner" },
+  {
+    name = "eu",
+    value = "🇪🇺",
+    category = "flags",
+    description = "european union flag banner",
+  },
   {
     name = "falkland_islands",
     value = "🇫🇰",
@@ -6875,23 +7525,4 @@ local emojis = {
   },
 }
 
-local config = {
-  action = function(emoji)
-    vim.fn.setreg("*", emoji.value)
-    print([[Press p or "*p to paste this emoji]] .. emoji.value)
-  end,
-}
-
-local function setup(opts)
-  if opts then
-    config = vim.tbl_extend("force", config, opts)
-  end
-end
-
-return {
-  emojis = emojis,
-  config = function()
-    return config
-  end,
-  setup = setup,
-}
+return { emojis = emojis }

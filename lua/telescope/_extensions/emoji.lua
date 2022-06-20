@@ -5,8 +5,12 @@ local conf = require("telescope.config").values
 local entry_display = require("telescope.pickers.entry_display")
 local action_state = require("telescope.actions.state")
 
-local config = require("telescope-emoji").config
 local emojis = require("telescope-emoji").emojis
+
+local function action(emoji)
+  vim.fn.setreg("*", emoji.value)
+  print([[Press p or "*p to paste this emoji]] .. emoji.value)
+end
 
 local function search(opts)
   local displayer = entry_display.create({
@@ -46,7 +50,7 @@ local function search(opts)
       actions.select_default:replace(function()
         local emoji = action_state.get_selected_entry()
         actions.close(prompt_bufnr)
-        config().action(emoji)
+        action(emoji)
       end)
       return true
     end,
@@ -54,8 +58,8 @@ local function search(opts)
 end
 
 return require("telescope").register_extension({
-  exports = {
-    search = search,
-    emoji = search,
-  },
+  setup = function(config)
+    action = config.action or action
+  end,
+  exports = { emoji = search },
 })
