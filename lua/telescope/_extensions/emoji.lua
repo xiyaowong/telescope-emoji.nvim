@@ -9,6 +9,7 @@ local emojis = require("telescope-emoji").emojis
 
 local function action(emoji)
   vim.fn.setreg("*", emoji.value)
+  vim.fn.setreg('"', emoji.value)
   print([[Press p or "*p to paste this emoji]] .. emoji.value)
 end
 
